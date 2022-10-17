@@ -1,9 +1,11 @@
 import '../styles/global.css'
 
+
+
 export function Input() {
   return(
-   <div className=' flex mt-30 ml-30'>
-    <input  type="text" placeholder='E-mail: user@gmail.com' />
+   <div>
+    <input className='flex items-center gap-3 h-12 py-4 px-3 ml-12 m-4 rounded bg-green-600 w-full  focus-within:ring-2' />
    </div>
   )
 }
